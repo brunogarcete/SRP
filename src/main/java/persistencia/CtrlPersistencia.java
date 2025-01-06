@@ -13,7 +13,4 @@ public class CtrlPersistencia {
     public List<Usuario> retornarTodosLosUsuarios() {
         return ctrlJpa.findUsuarioEntities();
     }
-
-
- 
 }
